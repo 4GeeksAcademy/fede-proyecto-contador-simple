@@ -26,7 +26,6 @@ const ContadorSegundos = () => {
       <h1 className="bg-dark text-white m-1 p-2" onClick={contarArriba}>{str[3]}</h1>
       <h1 className="bg-dark text-white m-1 p-2" onClick={contarArriba}>{str[4]}</h1>
       <h1 className="bg-dark text-white m-1 p-2" onClick={contarArriba}>{str[5]}</h1>
-      
     </div>
   );
 
