@@ -9,20 +9,30 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-.reloj-numeros {
-    margin: 2px;
-    background-color: rgb(83, 79, 79);
-    width: 100px;
-    font-size: 100px;
+.container {
+    background: rgba(223, 222, 222, 0.582);
+    border-bottom: solid black 10px;
+    border-right: solid black 10px;
+    border-left: solid black 1px;
+    border-top: solid black 1px;
+    
+}
+
+.numeros-reloj {
+    background-color: rgb(117, 111, 111);
+    width: 75px;
+    font-size: 75px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow:
-        inset 5px 5px 10px rgba(0, 0, 0, 0.8),
-        
-        inset -5px -5px 10px rgba(255, 255, 255, 0.1);
-    
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75) inset;          
+}
 
+
+i {   
+    padding-top: 15px;
+    font-size: 50px;
+    width: 50px;
 
 }
